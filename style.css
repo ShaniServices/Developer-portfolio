@@ -18,6 +18,8 @@ body {
     height: 100%;
 }
 
+/* utility section Start */
+
 .section {
     width: 100vw;
     height: 100vh;
@@ -27,10 +29,6 @@ body {
     max-width: 1400px;
     margin: auto;
     padding: 2rem;
-}
-
-.main-color {
-    color: var(--main-color);
 }
 
 .sub-heading {
@@ -44,6 +42,8 @@ body {
     width: 100%;
 }
 
+/* utility section End */
+
 /* Hero Section start */
 #hero-section {
     display: flex;
@@ -51,13 +51,16 @@ body {
     align-items: center;
 }
 
-
 .hero-title {
     margin: 1.5rem 0;
     font-size: 3.5rem;
     letter-spacing: 2px;
     line-height: 1.2;
     color: var(--primary-color);
+}
+
+.hero-title span {
+    color: var(--main-color);
 }
 
 .hero-btn {
